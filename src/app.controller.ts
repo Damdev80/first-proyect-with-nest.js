@@ -19,6 +19,11 @@ export class AppController {
   getClinica(): string {
     return 'Hola concepcion';
   }
+
+  @Get('jugar')
+  getJugar(): string {
+    return 'Hola juego';
+  }
 }
 
 
